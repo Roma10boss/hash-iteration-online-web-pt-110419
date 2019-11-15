@@ -1,3 +1,4 @@
+def kids_name
 birthday_kids = {
    "Timmy" => 9, 
    "Sarah" => 6, 
@@ -6,6 +7,8 @@ birthday_kids = {
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
+  birthday_kids.each do |kids_name, age|
+    puts " Happy birthday #{kids_name}! "
 end
 
 
